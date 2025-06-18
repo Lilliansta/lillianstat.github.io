@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
-
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 h2 {
 	color:#1F3202;
@@ -46,8 +51,10 @@ h1 {
 }
 
 .navigation {
+	margin-top: 30px;
 	text-align:center; 
-	color:#1F3202
+	color:#1F3202;
+	width: 100%;
 }
 
 
@@ -60,6 +67,7 @@ h1 {
 .navigation li {
 	display:inline-block;
 	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	 
 }
 	
 	
@@ -72,7 +80,7 @@ h1 {
 	border: 2px solid #D5EE97;
 	padding:10px;
 	color:#1F3202;
-	transition: background-color 0.3s;
+	transition: 0.2s;
 		
 }
 
