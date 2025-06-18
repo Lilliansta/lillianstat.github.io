@@ -25,9 +25,7 @@ body {
 }
 
 
-.item p {
-		font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
-}
+
 
 h1 {
 	font-family: "Slackey", sans-serif;
@@ -48,6 +46,14 @@ h1 {
 	margin-right: 20%;
 	border: 2px solid #D5EE97;
 	
+}
+
+.item p {
+		font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.item li {
+	margin-left: 25px;
 }
 
 .navigation {
