@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h2 {
+	color:#1F3202;
+	font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	text-align:center;
+}
+
+body {
+	background-color:#A1C28F;
+	color:#1F3202;
+	background-image:url("Pictures/tree.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+.item p {
+		font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+h1 {
+	font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	text-align:center; 
+	color:#1F3202;
+		
+}
+
+
+.item {
+	background-color:aliceblue;
+	border-radius: 15px;
+	margin: 30px;
+	padding: 30px;
+	margin-left:20%;
+	margin-right: 20%;
+	border: 2px solid #D5EE97;
+	
+}
+
+.navigation {
+	text-align:center; 
+	color:#1F3202
+}
+
+
+
+.item li{
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+
+.navigation li {
+	display:inline-block;
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+	
+	
+
+.navigation a {
+	text-decoration: none;
+	background-color:aliceblue;
+	border-radius: 15px;
+	magrin: 15px;
+	border: 2px solid #D5EE97;
+	padding:10px;
+	color:#1F3202;
+	transition: background-color 0.3s;
+		
+}
+
+.navigation a:hover {
+	background-color:#D5EE97
+}
+
+p {
+	color:#202A0A;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+#introheading { 
+	color:#1F3202
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	body
+	{ background-color:#809C96;
+	background-image: url();
+	}
+	
+}
+
+.imagecenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+
+.footer{
+	text-align:center;
+	color:#1F3202;
+}
+
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+	  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+
+	
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
